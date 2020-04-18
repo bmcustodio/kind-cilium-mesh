@@ -2,7 +2,7 @@
 
 A [Cilium cluster mesh](https://docs.cilium.io/en/v1.7/gettingstarted/clustermesh/) between two [kind](https://github.com/kubernetes-sigs/kind) clusters for testing purposes.
 
-![License](https://img.shields.io/github/license/bmcstdio/kubectl-topology)
+![License](https://img.shields.io/github/license/bmcustodio/kubectl-topology)
 
 ## Prerequisites
 
@@ -78,7 +78,7 @@ $ kind delete cluster --name kind-cilium-mesh-2
 
 ## License
 
-Copyright 2020 bmcstdio
+Copyright 2020 bmcustodio
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
