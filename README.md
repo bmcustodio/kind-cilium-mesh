@@ -1,18 +1,19 @@
 # kind-cilium-mesh
 
-A [Cilium cluster mesh](https://docs.cilium.io/en/v1.7/gettingstarted/clustermesh/) between two [kind](https://github.com/kubernetes-sigs/kind) clusters for testing purposes.
+A [Cilium cluster mesh](https://docs.cilium.io/en/v1.9/gettingstarted/clustermesh/) between two [kind](https://github.com/kubernetes-sigs/kind) clusters for testing purposes.
 
 ![License](https://img.shields.io/github/license/bmcustodio/kubectl-topology)
 
 ## Prerequisites
 
-* `git`
+* [`git`](https://git-scm.com/)
+* [`jq`](https://stedolan.github.io/jq/download/)
 * [`kind`](https://kind.sigs.k8s.io/docs/user/quick-start/)
 * [`kubectl`](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 
 ## Introduction
 
-This project bootstraps a [cluster mesh](https://docs.cilium.io/en/v1.7/gettingstarted/clustermesh/) between two [kind](https://github.com/kubernetes-sigs/kind) clusters using [Cilium](https://cilium.io) which can be used for demo or testing purposes.
+This project bootstraps a [cluster mesh](https://docs.cilium.io/en/v1.9/gettingstarted/clustermesh/) between two [kind](https://github.com/kubernetes-sigs/kind) clusters using [Cilium](https://cilium.io) which can be used for demo or testing purposes.
 
 ## Bootstrapping
 
@@ -78,7 +79,7 @@ $ kind delete cluster --name kind-cilium-mesh-2
 
 ## License
 
-Copyright 2020 bmcustodio
+Copyright 2021 bmcustodio
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
